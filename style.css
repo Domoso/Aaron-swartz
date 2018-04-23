@@ -1,0 +1,130 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #EBEBEB;
+}
+
+.grid {
+	display: grid;
+	border-radius: 7px;
+	width: 500px;
+	height: 1300px;
+	grid-template-columns: 500px;
+	grid-template-rows: 600px 150px 550px;
+	margin-left: 390px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	grid-row-gap: 15px;
+}
+
+.boxa {
+	border-radius: 7px;
+	background-color: #FFFFFF;
+	align-items: center;
+	box-shadow: 3px 3px #E0E0E0;
+}
+
+.boxb {
+	border-radius: 7px;
+	background-color: #FFFFFF;
+	align-items: center;
+	box-shadow: 3px 3px #E0E0E0;
+}
+
+.boxc {
+	border-radius: 7px;
+	background-color: #FFFFFF;
+	align-items: center;
+	box-shadow: 3px 3px #E0E0E0;
+}
+
+img {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 170px;
+	border:5px solid #E3E3E3;
+}
+
+.boxb img {
+	width: 100px;
+	height: 100px;
+	border: 0px solid white;
+	margin-left: 45px;
+}
+
+.boxc h2 {
+	text-align: center;
+	padding-top: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	opacity: 0.6;
+}
+
+h1 {
+	text-align: center;
+	color: #DD5555;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h2 {
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	opacity: 0.6;
+}
+
+p {
+	text-align: justify;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	margin-left: 15px;
+	margin-right: 15px;
+	line-height: 30px;
+	opacity: 0.7;
+}
+
+b {
+	opacity: 1;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.lien {
+	display: block;
+	background-color: #DD5555;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	margin-left: 150px;
+	border-radius: 5px;
+	line-height: 13px;
+	box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+                0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+.lien:hover{
+     color: #FF5555;
+     background: #FF5555;
+     
+}
+
+.lien:active{
+     color: #FF5555;
+     background: #FF5555;
+     box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 138, 46, 46, 0.4);
+}
+
+.boxc img {
+	border-radius: 0px;
+	border: none;
+	width: 125px;
+	height: 150px;
+	margin-left: 15px;
+}
